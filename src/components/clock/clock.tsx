@@ -11,7 +11,7 @@ function Clock() {
       clearInterval(interval);
     };
   }, []);
-
+  //função pra ajustar o formato da hora,minutos e seguntos no formato '00'
   function formatTime(time: any) {
     return time < 10 ? "0" + time : time;
   }

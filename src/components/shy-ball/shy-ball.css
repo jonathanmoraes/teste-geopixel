@@ -5,11 +5,12 @@
 }
 
 .ball{
-    transition: 1s ease;
+    
+    transition: 1s ease;/*permite a transição dinamica do componente*/
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: rgb(245, 146, 146);
     top: 5vw;
     left: 15vh;
     border-radius: 50%;

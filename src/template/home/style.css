@@ -9,12 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: green;
+  background-color: rgb(58, 65, 58);
 }
 
 .left-side,
 .right-side {
-  background-color: white;
+  background-color: rgb(32, 52, 65);
   width: 50vw;
 }
 
@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(102, 56, 4);
+  background-color: rgb(74, 116, 129);
 }
 
 .shy-ball {

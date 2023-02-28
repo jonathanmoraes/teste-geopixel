@@ -44,6 +44,7 @@ Inicie o servidor
 ```bash
   npm run dev 
 ```
+
 Acesse pelo link disponibilizado no terminal:
 ```bash 
   Local:   http://localhost:5173/

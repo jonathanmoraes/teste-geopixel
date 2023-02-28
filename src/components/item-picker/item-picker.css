@@ -1,3 +1,13 @@
-.itemPicker{
-    background-color: rgb(102, 56, 4);
+.itemPicker {
+  align-items: center;
+  justify-content: center;
+}
+.inputText {
+  background-color: white;
+}
+.butons {
+  background-color: white;
+}
+.msg {
+  background-color: white;
 }
