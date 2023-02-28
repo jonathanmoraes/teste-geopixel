@@ -46,6 +46,8 @@ Inicie o servidor
 ```
 
 Acesse pelo link disponibilizado no terminal:
+
+Exemplo:
 ```bash 
   Local:   http://localhost:5173/
 ```
