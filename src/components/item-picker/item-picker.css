@@ -1,13 +1,47 @@
 .itemPicker {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .inputText {
-  background-color: white;
+  width: 328px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
-.butons {
-  background-color: white;
+.addButon {
+  width: 100px;
+  margin: 5px;
+  height: 36px;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(94, 219, 111);
 }
-.msg {
-  background-color: white;
+
+.removeButon {
+  width: 100px;
+  margin: 5px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(219, 94, 94);
+}
+
+.clearButon {
+  width: 100px;
+  margin: 5px;
+  height: 36px;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(240, 226, 98);
+}
+.select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

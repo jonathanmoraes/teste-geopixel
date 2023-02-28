@@ -1,13 +1,17 @@
 import { useState, useEffect } from "react";
 import "./clock.css";
 
+//função que retorna um relogio virtual
 function Clock() {
   const [hour, setHour] = useState(new Date());
+  //useEffect responsavel por rodar e atulaizar o estado a cada 1 segundo
   useEffect(() => {
+    //setInterval responsavel por forçar a atualização do estado
     const interval = setInterval(() => {
       setHour(formatTime(new Date()));
     }, 1000);
     return () => {
+      //responsavel para evitar o estouro de memoria, limpnado a constante a cada rodagem
       clearInterval(interval);
     };
   }, []);

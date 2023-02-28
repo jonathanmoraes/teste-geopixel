@@ -5,7 +5,6 @@
 }
 
 .ball{
-    
     transition: 1s ease;/*permite a transição dinamica do componente*/
     position: absolute;
     width: 30px;
