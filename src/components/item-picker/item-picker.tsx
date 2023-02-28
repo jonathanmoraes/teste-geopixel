@@ -12,7 +12,6 @@ function ItemPicker() {
 
   //Responsavel por pegar qualquer evento dentro do options e salvar o value no estado options(setOpcoes)
   function onChangeSelect(event: React.ChangeEvent<HTMLSelectElement>) {
-    //Adiciona.
     setInput(event.target.value);
   }
 
