@@ -1,0 +1,16 @@
+.shyBall{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.ball{
+    transition: 1s ease;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    top: 5vw;
+    left: 15vh;
+    border-radius: 50%;
+}

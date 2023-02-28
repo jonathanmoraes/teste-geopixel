@@ -1,0 +1,12 @@
+span {
+  font-size: 90px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.hour,
+.min,
+.sec {
+  box-shadow: 0 0 15px 5px black;
+}
